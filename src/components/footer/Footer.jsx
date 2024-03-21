@@ -1,4 +1,4 @@
-import style from './Footer.module.css'
+import style from './Footer.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
@@ -11,22 +11,22 @@ function Footer () {
     <footer className="container">
         <div className={style.socials}>
           <a className={style.socialLink} href="/">
-          <FontAwesomeIcon icon={faFacebookSquare}/>
+            <FontAwesomeIcon icon={faFacebookSquare}/>
           </a>
           <a className={style.socialLink} href="/">
-          <FontAwesomeIcon icon={faTwitterSquare}/>
+            <FontAwesomeIcon icon={faTwitterSquare}/>
           </a>
           <a className={style.socialLink} href="/">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
           <a className={style.socialLink} href="/">
-          <FontAwesomeIcon icon={faLinkedin}/>
+            <FontAwesomeIcon icon={faLinkedin}/>
           </a>
         </div>
         <p className="copyrightText">&copy; 2024 - All rights reserved</p>
     </footer>
-    )
+    );
 }
 
 
-export { Footer }
+export { Footer };
